@@ -1,8 +1,6 @@
 <?php
-
-
 // fichier index.php
-require_once 'Moto.php';
+require_once 'moto.php';
 
 $moto = new Moto("Piaggio", "violette", 217);
-echo $moto->getDescription();
+$moto = new Moto("Kawasaki", "rouge", 211);
